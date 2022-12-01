@@ -26,7 +26,6 @@ body {
 .headline-container {
   display: flex;
   justify-content: center;
-  height: 100vh;
   background: url('../images/header-illsutration-mobile.png');
   background-size: 100% 100%;
 }
