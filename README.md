@@ -31,6 +31,12 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -65,6 +71,78 @@ This projet use
 ### Key Features <a name="key-features"></a>
 
 -   **Display toolbar and headline section**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone git@github.com:hansderly/portfolio.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd portfolio
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+Double click on index.html
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+Example command:
+
+```sh
+  npx hint .
+```
+
+To run the webhint linter
+
+```sh
+  npx stylehint "**/*.{css,scss}"
+```
+
+To run the stylehint linter
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
