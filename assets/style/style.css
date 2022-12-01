@@ -82,6 +82,7 @@ body {
 .recent-work-container {
   display: grid;
   row-gap: 24px;
+  margin-bottom: 50px;
 }
 
 .recent-work-title-container {
@@ -112,4 +113,87 @@ body {
   height: 5px;
   border-radius: 10px;
   background-color: #36b37f;
+}
+
+.single-card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.single-card {
+  width: 350px;
+  border-radius: 10px;
+  background-color: #eff3f1;
+  border: 1px solid #d0d9d4;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.img-single-work {
+  height: 252px;
+}
+
+.infos-container {
+  background-color: #fff;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.name-single-work {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.stack-single-work-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.stack-single-container {
+  background-color: #eff3f1;
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+}
+
+.stack {
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+}
+
+.see-project-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.see-project-button {
+  background: #36b37f;
+  border-radius: 4px;
+  padding: 0 12px 0 12px;
+}
+
+.see-project-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 0;
+  color: #fff;
 }
