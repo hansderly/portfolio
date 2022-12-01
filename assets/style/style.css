@@ -63,8 +63,16 @@ body {
 	color: #172b4d;
 }
 
-.social-media {
-	margin-top: 50px;
+.social-media-container {
+	display: flex;
+}
+
+.social-media-container li {
+	list-style: none;
+}
+
+.social-media-container ul {
+	padding-inline-start: 18px;
 }
 
 .go-down-container {
