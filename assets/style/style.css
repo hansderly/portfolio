@@ -233,7 +233,7 @@ body {
 }
 
 .about-me {
-  display: grid;
+  display: flex;
   background-image: url(../images/top-right.svg), url(../images/bottom-left-about-me-mobile.svg);
   background-position: right top, left bottom;
   background-repeat: no-repeat, no-repeat;
