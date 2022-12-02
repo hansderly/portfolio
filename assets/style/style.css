@@ -171,6 +171,18 @@ body {
   padding: 10px 12px 10px 12px;
 }
 
+.card-stack-single li {
+  justify-content: center;
+  align-content: center;
+}
+
+.card-stack-single a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #36b37e;
+}
+
 .stack-single-work-container ul li {
   list-style: none;
 }
@@ -223,6 +235,7 @@ body {
   background-image: url(../images/top-right.svg), url(../images/bottom-left-about-me-mobile.svg);
   background-position: right top, left bottom;
   background-repeat: no-repeat, no-repeat;
+  margin-bottom: 60px;
 }
 
 .about-me-text {
@@ -276,4 +289,66 @@ body {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+}
+
+.language-framework-skills-container {
+  display: grid;
+  row-gap: 24px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.card {
+  width: 350px;
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+}
+
+.card-img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.card-title-stack {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+}
+
+.card-stack-name {
+  display: flex;
+  width: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 12px 10px 12px;
+  align-self: center;
+}
+
+.card-stack ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 12px;
+}
+
+.card-5 {
+  align-self: center;
+  justify-self: center;
 }
