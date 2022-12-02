@@ -148,7 +148,11 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 21px;
-  line-height: 32px;
+  color: #3a4a42;
+}
+
+.name-single-work h1 {
+  margin-bottom: 0;
 }
 
 .stack-single-work-container {
@@ -157,21 +161,37 @@ body {
   gap: 8px;
 }
 
-.stack-single-container {
-  background-color: #eff3f1;
-  border-radius: 5px;
-  padding: 0 10px 0 10px;
+.stack-single-work-container ul {
+  padding-left: 0;
 }
 
-.stack {
+.stack-single-container li {
+  background-color: #eff3f1;
+  border-radius: 5px;
+  padding: 10px 12px 10px 12px;
+}
+
+.stack-single-work-container ul li {
+  list-style: none;
+}
+
+.stack a {
   padding: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 13px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #3a4a42;
+}
+
+.see-project-button a {
+  text-decoration: none;
+}
+
+.stack-single-work-container ul li a {
+  text-decoration: none;
 }
 
 .see-project-container {
@@ -184,7 +204,7 @@ body {
 .see-project-button {
   background: #36b37f;
   border-radius: 4px;
-  padding: 0 12px 0 12px;
+  padding: 12px 12px 12px 12px;
 }
 
 .see-project-text {
