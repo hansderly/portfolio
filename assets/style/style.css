@@ -162,6 +162,8 @@ body {
 }
 
 .stack-single-work-container ul {
+  display: flex;
+  gap: 10px;
   padding-left: 0;
 }
 
