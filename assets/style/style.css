@@ -155,6 +155,10 @@ body {
   margin-bottom: 0;
 }
 
+.get-my-resume-button a {
+  text-decoration: none;
+}
+
 .stack-single-work-container {
   display: flex;
   justify-content: center;
