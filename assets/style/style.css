@@ -217,3 +217,63 @@ body {
   padding: 0;
   color: #fff;
 }
+
+.about-me {
+  display: grid;
+  background-image: url(../images/top-right.svg), url(../images/bottom-left-about-me-mobile.svg);
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.about-me-text {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 50px;
+}
+
+.about-me-description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #435370;
+  margin: 12px 24px 12px 24px;
+}
+
+.get-my-resume-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.get-my-resume-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  width: 130px;
+  height: 38px;
+  background: #36b37f;
+  border-radius: 4px;
+}
+
+.get-my-resume-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
