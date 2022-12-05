@@ -368,9 +368,12 @@ body {
   font-family: 'Inter', sans-serif;
   text-decoration: none;
   color: #172b4d;
+  padding: 15px;
 }
 
 .techs li {
   float: left;
   margin-right: 10px;
+  background-color: #eff3f1;
+  border-radius: 10px;
 }
