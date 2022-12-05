@@ -358,3 +358,19 @@ body {
   align-self: center;
   justify-self: center;
 }
+
+/* =================== modification float */
+.container ul {
+  list-style: none;
+}
+
+.techs li a {
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  color: #172b4d;
+}
+
+.techs li {
+  float: left;
+  margin-right: 10px;
+}
