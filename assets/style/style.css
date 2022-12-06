@@ -364,7 +364,6 @@ body {
 #contact-form {
   background-image: url(../images/illustration-contact-form.svg);
   background-repeat: no-repeat;
-  /* background-position: bottom right; */
   background-position: 100% 90%;
   margin-top: 60px;
 }
