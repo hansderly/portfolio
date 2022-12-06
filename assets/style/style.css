@@ -382,7 +382,8 @@ body {
   color: #172b4d;
 }
 
-/*contact contact-form*/
+/* contact contact-form */
+
 .cform {
   display: flex;
   flex-direction: column;
