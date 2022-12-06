@@ -362,6 +362,10 @@ body {
 /* ========= contact ============= */
 
 #contact-form {
+  background-image: url(../images/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  /* background-position: bottom right; */
+  background-position: 100% 90%;
   margin-top: 60px;
 }
 
@@ -439,4 +443,15 @@ form textarea {
   display: flex;
   justify-content: center;
   margin-top: 44px;
+}
+
+.my-email {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-top: 0;
 }
