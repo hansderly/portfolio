@@ -358,3 +358,26 @@ body {
   align-self: center;
   justify-self: center;
 }
+
+/* ========= contact ============= */
+
+#contact-form {
+  margin-top: 60px;
+}
+
+.contact-text-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.contact-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
