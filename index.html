@@ -349,11 +349,12 @@
         <div class="form-container">
             <form class="cform" action="#" method="post">
                 <label for="full-name" class="form-label">Full Name</label>
-                <input type="text" name="full-name" placeholder="Full Name" id="full-name">
+                <input required type="text" name="full-name" placeholder="Full Name" id="full-name">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" name="email" placeholder="Email address" id="email">
+                <input required type="email" name="email" placeholder="Email address" id="email">
                 <label for="message" class="form-label">Message</label>
-                <textarea name="message" placeholder="Enter text here" id="message" cols="30" rows="10"></textarea>
+                <textarea required name="message" placeholder="Enter text here" id="message" cols="30"
+                    rows="10"></textarea>
 
                 <button class="btn" type="submit">Get in touch</button>
             </form>
