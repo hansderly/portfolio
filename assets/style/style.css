@@ -159,6 +159,10 @@ body {
   text-decoration: none;
 }
 
+.get-my-resume-text {
+  width: 160px !important;
+}
+
 .stack-single-work-container {
   display: flex;
   justify-content: center;
