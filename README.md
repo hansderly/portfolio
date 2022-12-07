@@ -156,6 +156,11 @@ To run the stylehint linter
 -   Twitter: [@\_hansderly](https://twitter.com/_hansderly)
 -   LinkedIn: [ansderly-rameau](https://linkedin.com/in/ansderly-rameau/)
 
+👤 **Mohamed Gamil Eldimardash**
+
+-   GitHub: [@githubhandle](https://github.com/MMGGYY66)
+-   LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-eldimardash-0023a3b5/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->

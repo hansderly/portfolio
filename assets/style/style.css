@@ -291,6 +291,7 @@ body {
 .get-my-resume-text {
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  width: 160px !important;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -357,4 +358,109 @@ body {
 .card-5 {
   align-self: center;
   justify-self: center;
+}
+
+/* ========= contact ============= */
+
+#contact-form {
+  background-image: url(../images/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  margin-top: 60px;
+}
+
+.contact-text-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.contact-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+/* contact contact-form */
+
+.cform {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  margin: 0 24px 24px 24px;
+}
+
+.form-label {
+  display: none;
+}
+
+input[type=text]:focus {
+  border: 1px solid #36b37f !important;
+}
+
+form input {
+  border: 1px solid #d0d9d4;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+form textarea {
+  border-radius: 5px;
+  border: 1px solid #36b37f;
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  padding: 12px;
+  width: 129px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: 0;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 24px;
+}
+
+.btn:hover {
+  background-color: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.btn:active {
+  background-color: #008552;
+}
+
+.social-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.my-email {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-top: 0;
 }
