@@ -2,6 +2,38 @@ body {
   margin: 0;
 }
 
+/* desktop version */
+@media screen and (min-width: 768px) {
+  .navbar .navbar-mobile {
+    display: none;
+  }
+
+  .navbar-desktop {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .navbar-desktop ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .nav-desk-elements li a {
+    text-decoration: none;
+    color: #344563;
+  }
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
