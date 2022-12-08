@@ -389,7 +389,7 @@ body {
 }
 
 .language-framework-skills-container {
-  display: grid;
+  /* display: grid; */
   row-gap: 24px;
 }
 
