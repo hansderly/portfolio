@@ -44,6 +44,18 @@ body {
     width: 920px;
     margin-top: 200px;
   }
+
+  .recent-work-grid-container {
+    grid-template-columns: repeat(3, 369px);
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .card-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 369px);
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -137,7 +149,7 @@ body {
   margin-top: 50px;
 }
 
-.recent-work-container {
+.recent-work-grid-container {
   display: grid;
   row-gap: 24px;
   margin-bottom: 50px;
