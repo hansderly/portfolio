@@ -56,6 +56,23 @@ body {
     grid-template-columns: repeat(3, 369px);
     justify-content: center;
   }
+
+  .about-me {
+    display: flex;
+    background-image: url(../images/illustration-about2-desktop.svg), url(../images/illustration-about1-desktop.svg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  .about-me-top {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about-me-description {
+    width: 920px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -74,6 +91,13 @@ body {
   .headline {
     padding: 20px;
     margin-top: 150px;
+  }
+
+  .about-me {
+    display: flex;
+    background-image: url(../images/top-right.svg), url(../images/bottom-left-about-me-mobile.svg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
   }
 }
 
@@ -307,10 +331,6 @@ body {
 }
 
 .about-me {
-  display: flex;
-  background-image: url(../images/top-right.svg), url(../images/bottom-left-about-me-mobile.svg);
-  background-position: right top, left bottom;
-  background-repeat: no-repeat, no-repeat;
   margin-bottom: 60px;
 }
 
