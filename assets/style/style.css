@@ -1,3 +1,137 @@
+@media screen and (min-width: 768px) {
+  .navbar .navbar-mobile {
+    display: none;
+  }
+
+  .navbar-desktop {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .navbar-desktop ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .nav-desk-elements li a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .headline-container {
+    background: url(../images/Header-llustration-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+  }
+
+  .headline {
+    width: 920px;
+    margin-top: 200px;
+  }
+
+  .recent-work-grid-container {
+    grid-template-columns: repeat(3, 369px);
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .card-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 369px);
+    justify-content: center;
+  }
+
+  .about-me {
+    display: flex;
+    background-image: url(../images/illustration-about2-desktop.svg), url(../images/illustration-about1-desktop.svg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  .about-me-top {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about-me-description {
+    width: 920px;
+  }
+
+  .contact-form-wrapper {
+    display: grid;
+    grid-template-columns: 463px 684px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .contact-text {
+    font-size: 25px;
+    line-height: 52px;
+  }
+
+  #contact-form {
+    background-image: url(../images/contact1.svg), url(../images/contact2.svg), url(../images/contact3.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom left, 30% 85%, bottom right;
+    margin-top: 60px;
+    padding-bottom: 200px;
+  }
+
+  .cform .get-in-touch {
+    display: flex;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .navbar-desktop {
+    display: none;
+  }
+
+  .headline-container {
+    display: flex;
+    justify-content: center;
+    background: url('../images/header-illsutration-mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .headline {
+    padding: 20px;
+    margin-top: 150px;
+  }
+
+  .about-me {
+    display: flex;
+    background-image: url(../images/top-right.svg), url(../images/bottom-left-about-me-mobile.svg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  #contact-form {
+    background-image: url(../images/contact4.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 90%;
+    margin-top: 60px;
+  }
+
+  .contact-text {
+    font-size: 40px;
+  }
+}
+
 body {
   margin: 0;
 }
@@ -26,18 +160,13 @@ body {
 .headline-container {
   display: flex;
   justify-content: center;
-  background: url('../images/header-illsutration-mobile.png');
-  background-repeat: no-repeat;
 }
 
 .headline {
   display: flex;
   flex-direction: column;
-  width: 375px;
-  height: 680px;
   align-items: center;
   align-self: center;
-  margin-top: 70px;
 }
 
 .primary-headline-text {
@@ -79,7 +208,7 @@ body {
   margin-top: 50px;
 }
 
-.recent-work-container {
+.recent-work-grid-container {
   display: grid;
   row-gap: 24px;
   margin-bottom: 50px;
@@ -237,10 +366,6 @@ body {
 }
 
 .about-me {
-  display: flex;
-  background-image: url(../images/top-right.svg), url(../images/bottom-left-about-me-mobile.svg);
-  background-position: right top, left bottom;
-  background-repeat: no-repeat, no-repeat;
   margin-bottom: 60px;
 }
 
@@ -299,7 +424,7 @@ body {
 }
 
 .language-framework-skills-container {
-  display: grid;
+  /* display: grid; */
   row-gap: 24px;
 }
 
@@ -362,13 +487,6 @@ body {
 
 /* ========= contact ============= */
 
-#contact-form {
-  background-image: url(../images/illustration-contact-form.svg);
-  background-repeat: no-repeat;
-  background-position: 100% 90%;
-  margin-top: 60px;
-}
-
 .contact-text-container {
   display: flex;
   justify-content: center;
@@ -380,7 +498,6 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
   line-height: 52px;
   text-align: center;
   color: #172b4d;
@@ -401,7 +518,7 @@ body {
   display: none;
 }
 
-input[type=text]:focus {
+input[type='text']:focus {
   border: 1px solid #36b37f !important;
 }
 
@@ -448,10 +565,13 @@ form textarea {
   background-color: #008552;
 }
 
+.social-footer-container {
+  border-top: 1px solid #dfe1e6;
+}
+
 .social-footer {
   display: flex;
   justify-content: center;
-  margin-top: 44px;
 }
 
 .my-email {
