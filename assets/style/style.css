@@ -47,7 +47,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  
+  .navbar .navbar-desktop {
+    display: none;
+  }
 
   .headline-container {
     display: flex;
