@@ -93,6 +93,13 @@
     display: flex;
     align-self: flex-start;
   }
+
+  /* animation and transition */
+  .trans-button:hover {
+    color: #003621;
+    transition-duration: 1s;
+    transition-delay: 1s;
+  }
 }
 
 @media screen and (max-width: 768px) {
