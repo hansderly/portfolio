@@ -224,6 +224,8 @@ body {
 }
 
 .social-media-container ul {
+  display: flex;
+  gap: 15px;
   padding-inline-start: 18px;
 }
 
