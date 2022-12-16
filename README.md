@@ -32,6 +32,7 @@ After you're finished please remove all the comments and instructions!
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Portfolio Presentation ](#-portfolio-presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -80,6 +81,14 @@ This projet use
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 -   [Live Demo Link](http://ansderly.me/portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Portfolio Presentation <a name="portfolio-presentation"></a>
+
+Here is the presentation of my project:
+
+-   [Portfolio presentation on LOOM](https://www.loom.com/share/b0eb655c874548bb8942d72684b28bc7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
