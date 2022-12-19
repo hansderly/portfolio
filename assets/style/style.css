@@ -148,15 +148,26 @@
   .close-menu {
     display: flex;
     flex-direction: row-reverse;
+    padding: 30px 35px 0 0;
   }
 
   #mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     list-style: none;
     padding-left: 0;
+    padding: 24px;
   }
 
   #mobile-menu li > a {
     text-decoration: none;
+    color: #3a4a42;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
   }
 
   .headline-container {
