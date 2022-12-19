@@ -151,6 +151,12 @@ To run the webhint linter
   npx stylehint "**/*.{css,scss}"
 ```
 
+To run eslint linter
+
+```sh
+  npx eslint .
+```
+
 To run the stylehint linter
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
