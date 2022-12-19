@@ -8,7 +8,6 @@ menuIcon.addEventListener('click', openHandler);
 const closeMenu = document.querySelector('.close-menu');
 
 const closeMenuHandler = () => {
-  console.log('Hello');
   menu.classList.add('hide-menu');
 };
 
