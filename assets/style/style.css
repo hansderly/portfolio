@@ -118,9 +118,41 @@
   }
 }
 
+/* todo: read about min-width */
 @media screen and (max-width: 768px) {
   .navbar .navbar-desktop {
     display: none;
+  }
+
+  /* mobile menu */
+
+  .hide {
+    display: none;
+  }
+
+  #mobile-menu {
+    position: absolute;
+    height: 80vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    /* padding: 25px; */
+    border-radius: 0 0 20px 20px;
+    background-color: #fff;
+  }
+  
+  .close-menu {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #mobile-menu ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #mobile-menu li > a {
+    text-decoration: none;
   }
 
   .headline-container {
