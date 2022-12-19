@@ -1,7 +1,7 @@
 const menu = document.getElementById('mobile-menu');
 const menuIcon = document.getElementById('menu-icon');
 const closeMenu = document.querySelector('.close-menu');
-const mobileLinks = document.getElementById('mobile-links')
+const mobileLinks = document.getElementById('mobile-links');
 
 const openHandler = () => {
   menu.classList.remove('hide-menu');
