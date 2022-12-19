@@ -54,7 +54,8 @@
 
   .about-me {
     display: flex;
-    background-image: url(../images/illustration-about2-desktop.svg), url(../images/illustration-about1-desktop.svg);
+    background-image: url(../images/illustration-about2-desktop.svg),
+      url(../images/illustration-about1-desktop.svg);
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
   }
@@ -82,7 +83,8 @@
   }
 
   #contact-form {
-    background-image: url(../images/contact1.svg), url(../images/contact2.svg), url(../images/contact3.svg);
+    background-image: url(../images/contact1.svg), url(../images/contact2.svg),
+      url(../images/contact3.svg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: bottom left, 30% 85%, bottom right;
     margin-top: 60px;
@@ -126,7 +128,7 @@
 
   /* mobile menu */
 
-  .hide {
+  .hide-menu {
     display: none;
   }
 
@@ -140,7 +142,7 @@
     border-radius: 0 0 20px 20px;
     background-color: #fff;
   }
-  
+
   .close-menu {
     display: flex;
     flex-direction: row-reverse;
@@ -150,7 +152,7 @@
     list-style: none;
     padding-left: 0;
   }
-  
+
   #mobile-menu li > a {
     text-decoration: none;
   }
@@ -170,7 +172,8 @@
 
   .about-me {
     display: flex;
-    background-image: url(../images/top-right.svg), url(../images/bottom-left-about-me-mobile.svg);
+    background-image: url(../images/top-right.svg),
+      url(../images/bottom-left-about-me-mobile.svg);
     background-position: right top, left bottom;
     background-repeat: no-repeat, no-repeat;
   }
