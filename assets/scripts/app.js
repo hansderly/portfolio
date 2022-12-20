@@ -16,3 +16,36 @@ const closeMenuHandler = () => {
 closeMenu.addEventListener('click', closeMenuHandler);
 
 mobileLinks.addEventListener('click', closeMenuHandler);
+
+const workCardDetail = [
+  {
+    id: 0,
+    title: 'Multi-Post Stories Gain+Glory',
+    tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+  },
+  {
+    id: 0,
+    title: 'Multi-Post Stories Gain+Glory',
+    tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+  },
+  {
+    id: 0,
+    title: 'Multi-Post Stories Gain+Glory',
+    tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+  },
+  {
+    id: 0,
+    title: 'Multi-Post Stories Gain+Glory',
+    tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+  },
+  {
+    id: 0,
+    title: 'Multi-Post Stories Gain+Glory',
+    tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+  },
+  {
+    id: 0,
+    title: 'Multi-Post Stories Gain+Glory',
+    tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+  },
+];
