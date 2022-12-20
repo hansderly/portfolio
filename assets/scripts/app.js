@@ -66,7 +66,10 @@ const addWorkCard = () => {
               </header>
               <div class="stack-single-work-container">
                   <ul class="stack-single-container">
-                      ${work.tags.map((w) => `<li class="stack"><a href="#">${w}</a></li>`)}
+                    <li class="stack"><a href="#">${work.tags[0]}</a></li>
+                    <li class="stack"><a href="#">${work.tags[1]}</a></li>
+                    <li class="stack"><a href="#">${work.tags[2]}</a></li>
+                    <li class="stack"><a href="#">${work.tags[3]}</a></li>
                   </ul>
               </div>
               <div class="see-project-container">
