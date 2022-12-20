@@ -24,32 +24,31 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
   },
   {
-    id: 0,
+    id: 1,
     title: 'Multi-Post Stories Gain+Glory',
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
   },
   {
-    id: 0,
+    id: 2,
     title: 'Multi-Post Stories Gain+Glory',
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
   },
   {
-    id: 0,
+    id: 3,
     title: 'Multi-Post Stories Gain+Glory',
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
   },
   {
-    id: 0,
+    id: 4,
     title: 'Multi-Post Stories Gain+Glory',
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
   },
   {
-    id: 0,
+    id: 5,
     title: 'Multi-Post Stories Gain+Glory',
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
   },
 ];
-
 
 const addWorkCard = () => {
   const recentWorkGridContainer = document.querySelector(
@@ -59,25 +58,24 @@ const addWorkCard = () => {
     const card = document.createElement('div');
     card.classList.add('single-card-container');
     card.innerHTML = `
-                <div class="single-card">
-                    <div class="img-single-work"></div>
-                    <div class="infos-container">
-                        <header class="name-single-work">
-                            <h3>${work.title}</h3>
-                        </header>
-                        <div class="stack-single-work-container">
-                            <ul class="stack-single-container">
-                                ${work.tags.map((w) => `<li class="stack"><a href="#">${w}</a></li>`)}
-                            </ul>
-                        </div>
-                        <div class="see-project-container">
-                            <button class="see-project-text see-project btn" id="${work.id}" type="button">
-                                See Project
-                            </button>
-                        </div>
-                    </div>
+      <div class="single-card">
+          <div class="img-single-work"></div>
+          <div class="infos-container">
+              <header class="name-single-work">
+                  <h3>${work.title}</h3>
+              </header>
+              <div class="stack-single-work-container">
+                  <ul class="stack-single-container">
+                      ${work.tags.map((w) => `<li class="stack"><a href="#">${w}</a></li>`)}
+                  </ul>
+              </div>
+              <div class="see-project-container">
+                  <button class="see-project-text see-project btn" id="${work.id}" type="button">
+                      See Project
+                  </button>
+              </div>
+          </div> `;
 
-    `;
     recentWorkGridContainer.appendChild(card);
   });
 };
