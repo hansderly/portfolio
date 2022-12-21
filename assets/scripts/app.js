@@ -22,31 +22,43 @@ const recentWorks = [
     id: 0,
     title: 'Multi-Post Stories Gain+Glory',
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+    modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
   },
   {
     id: 1,
     title: 'Multi-Post Stories Gain+Glory',
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+    modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
   },
   {
     id: 2,
     title: 'Multi-Post Stories Gain+Glory',
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+    modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
   },
   {
     id: 3,
     title: 'Multi-Post Stories Gain+Glory',
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+    modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
   },
   {
     id: 4,
     title: 'Multi-Post Stories Gain+Glory',
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+    modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
   },
   {
     id: 5,
     title: 'Multi-Post Stories Gain+Glory',
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
+    modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
   },
 ];
 
@@ -92,7 +104,6 @@ const closeModalIcon = document.querySelector('#close-modal');
 const seeProjectButtonHandler = (index) => {
   blurBg.style.display = 'flex';
   modalWrapper.style.display = 'flex';
-  console.log(index);
 };
 
 const closeModalHandler = () => {
@@ -102,11 +113,9 @@ const closeModalHandler = () => {
 
 closeModalIcon.addEventListener('click', () => closeModalHandler());
 
-console.log(seeProjectButtons)
 
 const addEventListenerOnSeeProjectButton = () => {
   seeProjectButtons.forEach((seeProjectButton, index) => {
-    console.log(seeProjectButton, index)
     seeProjectButton.addEventListener('click', () => seeProjectButtonHandler(index));
   });
 };
