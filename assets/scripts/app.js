@@ -274,7 +274,6 @@ const seeProjectButtonHandler = (index) => {
   closeModalIcon.addEventListener('click', () => closeModalHandler());
 };
 
-
 const addEventListenerOnSeeProjectButton = () => {
   seeProjectButtons.forEach((seeProjectButton, index) => {
     seeProjectButton.addEventListener('click', () => seeProjectButtonHandler(index));
