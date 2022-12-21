@@ -237,7 +237,7 @@
             </header>
             <!-- contact form -->
             <div class="form-container">
-                <form class="cform" action="https://formspree.io/f/myyvrjnz" method="post">
+                <form id='form' class="cform" action="https://formspree.io/f/myyvrjnz" method="post">
                     <label for="full-name" class="form-label">Full Name</label>
                     <input required type="text" name="full-name" maxlength="30" placeholder="Full Name"
                         id="full-name" />
@@ -249,7 +249,9 @@
                     <textarea required name="message" maxlength="500" rows="5" placeholder="Enter text here"
                         id="message" cols="30"></textarea>
                     <br />
-
+                    <div class="alert-container hide">
+                        <p id="alertMessage"></p>
+                    </div>
                     <button class="btn get-in-touch" type="submit">Get in touch</button>
                 </form>
             </div>
@@ -293,6 +295,7 @@
         </div>
     </footer>
     <script src="./assets/scripts/app.js"></script>
+    <script src="./assets/scripts/validate.js"></script>
 </body>
 
 </html>

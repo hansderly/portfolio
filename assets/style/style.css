@@ -965,3 +965,18 @@ form textarea {
 .for-no-style {
   line-height: inherit;
 }
+
+.alert-container {
+  background-color: #f5c2c7;
+  padding: 0 10px 0 10px;
+  border-radius: 5px;
+}
+
+#alert {
+  color: #842029;
+  font-family: 'Inter', sans-serif;
+}
+
+.hide {
+  display: none;
+}
