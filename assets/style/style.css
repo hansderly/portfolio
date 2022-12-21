@@ -333,6 +333,11 @@
     line-height: 44px;
   }
 
+  .stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }
+
   .headline-container {
     display: flex;
     justify-content: center;
