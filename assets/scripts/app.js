@@ -24,7 +24,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
-    img: '../assets/images/modal-lg.png',
+    img: '/assets/images/modal-lg.png',
     seeLive: 'http://ansderly.me/portfolio/',
     seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -43,7 +43,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
-    img: '../assets/images/modal-lg.png',
+    img: 'assets/images/modal-lg.png',
     seeLive: 'http://ansderly.me/portfolio/',
     seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -62,7 +62,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
-    img: '../assets/images/modal-lg.png',
+    img: 'assets/images/modal-lg.png',
     seeLive: 'http://ansderly.me/portfolio/',
     seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -81,7 +81,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
-    img: '../assets/images/modal-lg.png',
+    img: 'assets/images/modal-lg.png',
     seeLive: 'http://ansderly.me/portfolio/',
     seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -100,7 +100,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
-    img: '../assets/images/modal-lg.png',
+    img: 'assets/images/modal-lg.png',
     seeLive: 'http://ansderly.me/portfolio/',
     seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -119,7 +119,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
-    img: '../assets/images/modal-lg.png',
+    img: 'assets/images/modal-lg.png',
     seeLive: 'http://ansderly.me/portfolio/',
     seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -150,10 +150,7 @@ const addWorkCard = () => {
               </header>
               <div class="stack-single-work-container">
                   <ul class="stack-single-container">
-                    <li class="stack"><a href="#">${work.tags[0]}</a></li>
-                    <li class="stack"><a href="#">${work.tags[1]}</a></li>
-                    <li class="stack"><a href="#">${work.tags[2]}</a></li>
-                    <li class="stack"><a href="#">${work.tags[3]}</a></li>
+                  ${work.tags.map((tag) => `<li class="stack"><a href="#">${tag}</a></li>`).join('')}
                   </ul>
               </div>
               <div class="see-project-container">
@@ -223,19 +220,12 @@ const seeProjectButtonHandler = (index) => {
                 </div>
                 <div class="modal-tags-container desktop">
                     <ul>
-                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[0]}</a></li>
-                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[1]}</a></li>
-                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[2]}</a></li>
-                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[3]}</a></li>
-                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[4]}</a></li>
-                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[5]}</a></li>
+                    ${currentWork.modalTagDesktop.map((tag) => `<li class="modal-tag"><a href="#">${tag}</a></li>`).join('')}
                     </ul>
                 </div>
                 <div class="modal-tags-container mobile">
                     <ul>
-                        <li class="modal-tag"><a href="#">${currentWork.modalTagMobile[0]}</a></li>
-                        <li class="modal-tag"><a href="#">${currentWork.modalTagMobile[0]}</a></li>
-                        <li class="modal-tag"><a href="#">${currentWork.modalTagMobile[0]}</a></li>
+                    ${currentWork.modalTagMobile.map((tag) => `<li class="modal-tag"><a href="#">${tag}</a></li>`).join('')}
                     </ul>
                 </div>
                 <div class="modal-descripton-container">
