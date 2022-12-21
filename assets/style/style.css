@@ -480,29 +480,18 @@
   }
 }
 
-.blur-bg {
-  display: none;
-  position: absolute;
-  width: 150%;
-  height: 150%;
-  top: 0;
-  left: 0;
-  background: url(../images/light-blue.png);
-  background-size: cover;
-  filter: blur(2px);
-  opacity: 0.97;
-  -webkit-filter: blur(2px);
-}
-
 .modal-wrapper {
   display: none;
-  position: absolute;
   justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
+  padding-top: 25px;
+  background-color: #1617174d;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100vh;
 }
 
 .modal::-webkit-scrollbar {

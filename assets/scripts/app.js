@@ -82,5 +82,35 @@ const addWorkCard = () => {
     recentWorkGridContainer.appendChild(card);
   });
 };
-
 addWorkCard();
+
+const blurBg = document.querySelector('.blur-bg');
+const modalWrapper = document.querySelector('.modal-wrapper');
+const seeProjectButtons = document.querySelectorAll('.see-project');
+const closeModalIcon = document.querySelector('#close-modal');
+
+const seeProjectButtonHandler = (index) => {
+  blurBg.style.display = 'flex';
+  modalWrapper.style.display = 'flex';
+  console.log(index);
+};
+
+const closeModalHandler = () => {
+  blurBg.style.display = 'none';
+  modalWrapper.style.display = 'none';
+};
+
+closeModalIcon.addEventListener('click', () => closeModalHandler());
+
+console.log(seeProjectButtons)
+
+const addEventListenerOnSeeProjectButton = () => {
+  seeProjectButtons.forEach((seeProjectButton, index) => {
+    console.log(seeProjectButton, index)
+    seeProjectButton.addEventListener('click', () => seeProjectButtonHandler(index));
+  });
+};
+
+window.onload = () => {
+  addEventListenerOnSeeProjectButton();
+};
