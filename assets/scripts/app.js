@@ -25,6 +25,8 @@ const recentWorks = [
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
     img: '../assets/images/modal-lg.png',
+    seeLive: 'http://ansderly.me/portfolio/',
+    seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
@@ -42,6 +44,8 @@ const recentWorks = [
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
     img: '../assets/images/modal-lg.png',
+    seeLive: 'http://ansderly.me/portfolio/',
+    seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
@@ -59,6 +63,8 @@ const recentWorks = [
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
     img: '../assets/images/modal-lg.png',
+    seeLive: 'http://ansderly.me/portfolio/',
+    seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
@@ -76,6 +82,8 @@ const recentWorks = [
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
     img: '../assets/images/modal-lg.png',
+    seeLive: 'http://ansderly.me/portfolio/',
+    seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
@@ -93,6 +101,8 @@ const recentWorks = [
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
     img: '../assets/images/modal-lg.png',
+    seeLive: 'http://ansderly.me/portfolio/',
+    seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
@@ -110,6 +120,8 @@ const recentWorks = [
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
     img: '../assets/images/modal-lg.png',
+    seeLive: 'http://ansderly.me/portfolio/',
+    seeSource: 'https://github.com/hansderly',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
