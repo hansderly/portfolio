@@ -24,6 +24,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
+    img: '../images/modal-lg.png',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
@@ -40,6 +41,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
+    img: '../images/modal-lg.png',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
@@ -56,6 +58,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
+    img: '../images/modal-lg.png',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
@@ -72,6 +75,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
+    img: '../images/modal-lg.png',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
@@ -88,6 +92,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
+    img: '../images/modal-lg.png',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
@@ -104,6 +109,7 @@ const recentWorks = [
     tags: ['Ruby', 'Css', 'JavaScript', 'Html'],
     modalTagDesktop: ['Codekit', 'Github', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     modalTagMobile: ['Ruby on Rails', 'Css', 'Javascript'],
+    img: '../images/modal-lg.png',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry. Lorem Ipsum has
                             been
