@@ -282,5 +282,3 @@ const addEventListenerOnSeeProjectButton = () => {
 };
 
 addEventListenerOnSeeProjectButton();
-window.onload = () => {
-};
