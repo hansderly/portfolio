@@ -971,3 +971,7 @@ form textarea {
 #alert {
   color: #fff;
 }
+
+.hide {
+  display: none;
+}

@@ -275,4 +275,3 @@ const addEventListenerOnSeeProjectButton = () => {
 };
 
 addEventListenerOnSeeProjectButton();
-
