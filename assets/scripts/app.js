@@ -194,9 +194,9 @@ const seeProjectButtonHandler = (index) => {
                 <div class="modal-infos-container">
                     <div class="modal-title-and-live-container">
                         <div class="modal-title-container">
-                            <p class="modal-title"></p>
+                            <p class="modal-title">${currentWork.title}</p>
                         </div>
-                        <a href="">
+                        <a href="${currentWork.seeLive}">
                             <div class="modal-live-and-source-container desktop">
                                 <div class="live-container">
                                     <p class="live-source-text">See live</p>
@@ -208,7 +208,7 @@ const seeProjectButtonHandler = (index) => {
                                     </svg>
                                 </div>
                         </a>
-                        <a href="">
+                        <a href="${currentWork.seeSource}">
                             <div class="source-container">
                                 <p class="live-source-text">See source</p>
                                 <svg width="18" height="20" viewBox="0 0 18 20" fill="none"
@@ -223,27 +223,27 @@ const seeProjectButtonHandler = (index) => {
                 </div>
                 <div class="modal-tags-container desktop">
                     <ul>
-                        <li class="modal-tag"><a href="#"></a></li>
-                        <li class="modal-tag"><a href="#"></a></li>
-                        <li class="modal-tag"><a href="#"></a></li>
-                        <li class="modal-tag"><a href="#"></a></li>
-                        <li class="modal-tag"><a href="#"></a></li>
-                        <li class="modal-tag"><a href="#"></a></li>
+                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[0]}</a></li>
+                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[1]}</a></li>
+                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[2]}</a></li>
+                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[3]}</a></li>
+                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[4]}</a></li>
+                        <li class="modal-tag"><a href="#">${currentWork.modalTagDesktop[5]}</a></li>
                     </ul>
                 </div>
                 <div class="modal-tags-container mobile">
                     <ul>
-                        <li class="modal-tag"><a href="#"></a></li>
-                        <li class="modal-tag"><a href="#"></a></li>
-                        <li class="modal-tag"><a href="#"></a></li>
+                        <li class="modal-tag"><a href="#">${currentWork.modalTagMobile[0]}</a></li>
+                        <li class="modal-tag"><a href="#">${currentWork.modalTagMobile[0]}</a></li>
+                        <li class="modal-tag"><a href="#">${currentWork.modalTagMobile[0]}</a></li>
                     </ul>
                 </div>
                 <div class="modal-descripton-container">
-                    <p class="modal-description"></p>
+                    <p class="modal-description">${currentWork.description}</p>
                 </div>
 
                 <div class="modal-live-and-source-container mobile">
-                    <a href="#">
+                    <a href="${currentWork.seeLive}">
                         <div class="live-container">
                             <p class="live-source-text">See live</p>
                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
@@ -254,7 +254,7 @@ const seeProjectButtonHandler = (index) => {
                             </svg>
                         </div>
                     </a>
-                    <a href="#">
+                    <a href="${currentWork.seeSource}">
                         <div class="source-container">
                             <p class="live-source-text">See source</p>
                             <svg width="18" height="20" viewBox="0 0 18 20" fill="none"
