@@ -963,13 +963,14 @@ form textarea {
 }
 
 .alert-container {
-	background-color: #b34200;
+	background-color: #f5c2c7;
   padding: 0 10px 0 10px;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 #alert {
-  color: #fff;
+  color: #842029;
+  font-family: 'Inter', sans-serif;
 }
 
 .hide {
