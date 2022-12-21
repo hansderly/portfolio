@@ -23,6 +23,10 @@
     line-height: 20px;
   }
 
+  .modal-live-and-source-container a {
+    text-decoration: none;
+  }
+
   .nav-desk-elements li a {
     text-decoration: none;
     color: #344563;
@@ -185,6 +189,7 @@
     gap: 10px;
   }
   
+  
   .live-container {
     display: flex;
     flex-direction: row;
@@ -299,6 +304,10 @@
     padding: 24px;
   }
 
+  .modal-live-and-source-container a {
+    text-decoration: none;
+  }
+
   #mobile-menu li > a {
     text-decoration: none;
     color: #3a4a42;
@@ -402,6 +411,7 @@
     margin-bottom: 15px;
     gap: 10px;
   }
+  
   
   .live-container {
     display: flex;
