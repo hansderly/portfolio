@@ -14,3 +14,19 @@ const setFormDataToLocalStorage = () => {
 full_name.addEventListener('change', () => setFormDataToLocalStorage());
 email.addEventListener('change', () => setFormDataToLocalStorage());
 message.addEventListener('change', () => setFormDataToLocalStorage());
+
+const populateDataToForm = () => {
+	const data = localStorage.getItem('form_input_data');
+	const data_parse = JSON.parse(data);
+
+	if (data?.length) {
+		const { full_name_input, email_input, message_input } = data_parse;
+		full_name.value = full_name_input || '';
+		email.value = email_input || '';
+		message.value = message_input || '';
+	}
+};
+
+window.onload = () => {
+	populateDataToForm();
+};
